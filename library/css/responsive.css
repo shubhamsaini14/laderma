@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*---For Laptop---*/
+
+@media (max-width: 1800px) {}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: calc(100% - 8%);
+    }
+  
+
+}
+/*---For Laptop---*/
+
+@media (min-width: 1200px) and (max-width: 1460px) {
+  
+    
+}
+@media (max-width: 1300px){ 
+    .branch-section .card-branch {
+        padding: 40px 15px;
+    }
+   
+}
+
+/*---For Horizental iPad---*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media(max-width: 1199px) {
+    .hide-sm,
+    .main-header .main-box,
+    .sticky-header {
+        display: none!important;
+    }
+    .mobile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: calc(100% - 14%);
+        margin: auto;
+    }
+    .nav-outer .mobile-nav-toggler {
+        font-size: 25px;
+        display: block;
+    }
+    #nav-mobile .mm-panels .sub-menu-head{
+        font-size: 28px;
+        color: #F18835;
+        font-weight: 600;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .main-header .navbar-header .header-lower{
+        display: none;
+    }
+   
+
+}
+
+
+/*---For Vertical iPad---*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+   
+}
+@media (max-width: 991px) {
+    .footer-section .footer-heading {
+        margin: 15px 0;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: calc(100% - 14%);
+    }
+    
+}    
+/*---For Mobile---*/
+
+@media (max-width: 767px) {
+    .main-header .top-header{
+        display: none;
+    }
+    .nav-outer .mobile-nav-toggler {
+        font-size: 25px;
+        display: block;
+    }
+    .fixed-header .mobile-header {      
+        background: #fff;
+        transition: 0.3s;
+    }
+    .grid-image.about-image img{
+        transform: scale(1);
+    }
+    .banner-appointment{
+        display: none;
+    }
+    .content-grid.about-section{
+        padding:50px 0;
+    }
+    .content-grid .Content-body h6::before {
+        left: -10px;
+    }
+    .section-title .title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .content-grid .Content-body h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .content-grid .Content-body .expert-item li{
+        flex-direction: column;
+        gap: 10px;        
+    }
+    .content-grid .Content-body .expert-item li .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .content-grid .Content-body .expert-item li .item-content{
+        width: 100%;
+        text-align: center;
+    }
+    .content-grid .Content-body .expert-item li .item-content h4{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .content-grid .Content-body .expert-item li .item-content p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .grid-image.about-image .experience-box span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .grid-image.about-image .experience-box span:first-child {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .conditions-section {
+        padding: 50px 0;
+    }
+    .getintouch-section ul{
+        justify-content: center;
+    }
+    .getintouch-section ul li{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .getintouch-section ul li{
+        text-align: center;
+    }
+    .getintouch-section .rightside-content{
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 10px;    
+    }
+    .getintouch-section ul li span{
+        width: 100%;
+    }
+    .footer-section{
+        padding: 50px 0;
+    }
+    .footer-logo{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .footer-section .f-social-media {
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .extraordinary-section .entraordinary-outer{
+        padding: 40px 20px;
+    }
+    .extraordinary-section .inner-content{
+        position: relative;
+        z-index: 2;
+    }
+    .extraordinary-section .inner-content h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .extraordinary-section .entraordinary-outer::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgb(248 244 240 / 72%);
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .testimonials{
+        padding: 50px 0;
+    }
+    .testimonials .review-button{
+        flex-wrap: wrap;
+    }
+    .appointment-area .work-shedule h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .imageGallery{
+        padding: 50px 0;
+    }
+    .content-grid{
+        padding: 50px 0;
+    }
+    .doctor-section .doctor-image .experience-card{
+        width: max-content;
+        right: 0 !important;
+        bottom: 0;
+        left: 0;
+    }
+    .doctor-section{
+        padding: 50px 0;
+    }
+    .doctor-section .doctor-image{
+        margin:20px 0;
+        height: auto;
+    }
+    .doctor-section .doctor-information h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .doctor-section .doctor-information h4{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .treatment-section .treatment-item .card-item{
+        width: 100%;
+    }
+    .treatment-section{
+        padding: 50px 0;
+    }
+    .branch-section .card-branch{
+        margin:15px 0;
+        height: auto;
+    }
+    .appointment-area .form-appointment{
+        margin: auto;
+    }
+    .slider .item{
+        min-height: 500px;
+        padding: 50px 0;
+    }
+    .slider.owl-theme .owl-dots{
+        bottom: 0;
+    }
+    .main-header{
+        position: relative;
+    }
+    .mobile-header{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .main-header.fixed-header{
+        position: fixed;
+    }
+    .appointment-area{
+        padding: 60px 0;
+    }
+    .article-blogs{
+        padding: 50px 0;
+    }
+}
+@media (max-width: 575px) {
+    
+}
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter-x, .75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 414px) {
+ 
+}
+
+@media (max-width: 411px) {
+ 
+}
+
+@media (max-width: 375px) {
+    
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
